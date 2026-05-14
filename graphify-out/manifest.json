@@ -1,0 +1,446 @@
+{
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\setup.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "6e3bef5bbfd3bbc1d10416268cf94822"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\external_content\\external_tools\\starter_custom_tool.py": {
+    "mtime": 1778685602.6006186,
+    "hash": "206d140380fa4e8121731f8f930de83a"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\example\\sweep_look.py": {
+    "mtime": 1778685602.6094232,
+    "hash": "adde4f60f86ae9505732830a8151bf48"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\base_realtime.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "536ebfab6726fc14405068c3f87d5905"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\camera_frame_encoding.py": {
+    "mtime": 1778685602.6527946,
+    "hash": "df883fa47f2cae4e24f40c2b75fbe361"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\camera_worker.py": {
+    "mtime": 1778685602.6527946,
+    "hash": "2da236ba330c762f77ea92998c8ad233"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\config.py": {
+    "mtime": 1778685602.6527946,
+    "hash": "e9922e990a7a7fa7b5f191e5782dcb15"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\console.py": {
+    "mtime": 1778685602.6568677,
+    "hash": "1fb53b67acf3c56e27bf17394cea7db1"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\conversation_handler.py": {
+    "mtime": 1778685602.6568677,
+    "hash": "4f1904c0725d718c979cecfb4ace96c6"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\dance_emotion_moves.py": {
+    "mtime": 1778685602.6568677,
+    "hash": "f67833d431aea8cf8d51c5264cfc67de"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\gemini_live.py": {
+    "mtime": 1778685602.6603842,
+    "hash": "32a253fcf157da8c2f0d3508ce415fc6"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\gradio_personality.py": {
+    "mtime": 1778685602.6603842,
+    "hash": "a0f6c502aa3da3beba10810c7817dce2"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\headless_personality.py": {
+    "mtime": 1778685602.6603842,
+    "hash": "ca64cbac251d2415c9fb7fca6abd7436"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\headless_personality_ui.py": {
+    "mtime": 1778685602.6603842,
+    "hash": "5f9780df2cc15e04b6ad0d7800e3cc17"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\huggingface_realtime.py": {
+    "mtime": 1778685602.6603842,
+    "hash": "7e3ab1eab067051a94fed00dd2396ef6"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\main.py": {
+    "mtime": 1778685602.673097,
+    "hash": "d81dfe49501c33e03577bc7a37ad4d43"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\moves.py": {
+    "mtime": 1778685602.6747928,
+    "hash": "77d29154bca56c3d7012a942de9eb8f8"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\openai_realtime.py": {
+    "mtime": 1778685602.6768024,
+    "hash": "50a9cddd0193bc370bf4961324d93a1a"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts.py": {
+    "mtime": 1778685602.6785736,
+    "hash": "8506d555e3decddbdc2ab1fd84d75f68"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\startup_settings.py": {
+    "mtime": 1778685602.6831572,
+    "hash": "514c3af0c58deae4cfca860380fbb651"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\utils.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "56e907e77405a9da6d34e343bbdc26ec"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\__init__.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "752186412c5a80e7c9565af26e0608bd"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\audio\\head_wobbler.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "31168c1f7c5d627bdbc5e7063ff782bf"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\audio\\speech_tapper.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "88d3d81b9b9c331c20b1eefa010a79d0"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\audio\\startup_config.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "5f99e81a3013d58f0f5e2223e7b581e7"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\audio\\__init__.py": {
+    "mtime": 1778685602.6411722,
+    "hash": "752186412c5a80e7c9565af26e0608bd"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\static\\main.js": {
+    "mtime": 1778685602.6831572,
+    "hash": "4f72ccc52502b1081055652472184c1e"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\background_tool_manager.py": {
+    "mtime": 1778685602.6927752,
+    "hash": "2b13e4390c66013b76eed25173ca7868"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\camera.py": {
+    "mtime": 1778685602.6927752,
+    "hash": "7defeb3528d917cc8af4d6f12f592393"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\core_tools.py": {
+    "mtime": 1778685602.7008073,
+    "hash": "e7ee7c3ba6bbcc4e227b9def9e401368"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\dance.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "8c1f3774b4bc30784918f543f6130633"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\head_tracking.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "14558e22a23dea4a547a9e627b417864"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\idle_do_nothing.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "e2a1b212692f51245740f096ca492568"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\move_head.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "380a6f0e7fe7b85f8f10b89747f47e92"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\play_emotion.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "f706c810a2d12fb3cfbe63035a731742"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\stop_dance.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "07497a1f3202f6a10a9646f2b9286f20"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\stop_emotion.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "5760fe13c28e1631317bed55b2625c0c"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\task_cancel.py": {
+    "mtime": 1778685602.7028265,
+    "hash": "58c6c2bc5aa36ec6ede7785c9896d41f"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\task_status.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "c9e10c3309ce0aff94656ffe587514ce"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\tool_constants.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "f53af1bd992b34b209062165c35966ec"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\tools\\__init__.py": {
+    "mtime": 1778685602.6927752,
+    "hash": "5da63130759f3d85dc3c9b61e49db8d7"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\local_vision.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "834396174e1632f9bbe611a5a6a865ee"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\__init__.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "ef3d25463f0dfc7f8dd14c37f53b8525"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\head_tracking\\mediapipe.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "6a7df16017c3bbb0e86ece3be919b284"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\head_tracking\\yolo.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "dc9d1ef70588bbc6a73683a33fd1df57"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\head_tracking\\yolo_process.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "55d01b7ccdfa395bbf9599f740cdb2cc"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\vision\\head_tracking\\__init__.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "54810a93b09f517eb42ea250ad9aa9aa"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_talk_data\\__init__.py": {
+    "mtime": 1778685602.7102964,
+    "hash": "188401030807fd6ade3d897c79c37455"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\conftest.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "30bae757244e099d4c15a707db8616f8"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_config_name_collisions.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "8b6a98ce43704f02e1419ffa7cf4c3a3"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_console.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "9dd2bad9b9f40636e342e9e62fde67f9"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_external_loading.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "7b6be61e51fa8c400f572363652f9022"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_gemini_live.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "9506887102a37789ddf90360824bb299"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_huggingface_realtime.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "3c3a3984092cd50df05703d3a7820a98"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_openai_realtime.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "9211637c6fe2ff5a81fc3190d295856b"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_profile_paths.py": {
+    "mtime": 1778685602.7416441,
+    "hash": "b9f487c49d61ab5f41f2110d76dba0d9"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_startup_settings.py": {
+    "mtime": 1778685602.7425919,
+    "hash": "f3c4e10cdfef55d6d114c61c04484778"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\test_utils.py": {
+    "mtime": 1778685602.7454143,
+    "hash": "5b9f56f9b8668a4c13b56acdde80ddb8"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\audio\\test_head_wobbler.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "a60ce7443eb42da4b5cd06e4f301a9e6"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\audio\\test_startup_config.py": {
+    "mtime": 1778685602.7259438,
+    "hash": "3a754709efa83c00edce6148d79a02c3"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\tools\\test_background_tool_manager.py": {
+    "mtime": 1778685602.747426,
+    "hash": "469698ac0d512d64fe31f8b5f3885c99"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\tools\\test_camera.py": {
+    "mtime": 1778685602.747426,
+    "hash": "41ee56de87138be2c766d5f3d9af5395"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\vision\\test_local_vision.py": {
+    "mtime": 1778685602.7514536,
+    "hash": "678c52b0e9adc38258b9c21cd7e50406"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\tests\\vision\\test_yolo_process.py": {
+    "mtime": 1778685602.7529666,
+    "hash": "60337376d6557f5e5e7da17fe3f5e16f"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\CLAUDE.md": {
+    "mtime": 1778688028.652137,
+    "hash": "8ed12b7bfc595bdf369f60d730a07a50"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\CODE_OF_CONDUCT.md": {
+    "mtime": 1778685601.412002,
+    "hash": "58e9741119a404c62012539efbca2dbc"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\CONTRIBUTING.md": {
+    "mtime": 1778685601.412002,
+    "hash": "446dc30183dbb8775a79a2f223b9130c"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\index.html": {
+    "mtime": 1778685602.6017504,
+    "hash": "c2c2b772d35d977bd9ee3a108613a129"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\README.md": {
+    "mtime": 1778685601.412002,
+    "hash": "e93297d90c446b13ead22954ce9f15fc"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\external_content\\external_profiles\\starter_profile\\instructions.txt": {
+    "mtime": 1778685602.5973465,
+    "hash": "7158968d13317fc48d516e96bc7397cf"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\external_content\\external_profiles\\starter_profile\\tools.txt": {
+    "mtime": 1778685602.5989943,
+    "hash": "89299b15d3d04aacfb18da8843d1b0ef"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\bored_teenager\\instructions.txt": {
+    "mtime": 1778685602.6034086,
+    "hash": "0c1a5e3b9c68f06f5942ad19f19fd429"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\bored_teenager\\tools.txt": {
+    "mtime": 1778685602.6045263,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\captain_circuit\\instructions.txt": {
+    "mtime": 1778685602.6056652,
+    "hash": "ddfd3709b9c3f91dd4db2bb529b5f190"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\captain_circuit\\tools.txt": {
+    "mtime": 1778685602.6056652,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\chess_coach\\instructions.txt": {
+    "mtime": 1778685602.6056652,
+    "hash": "7decefe181f94a3c214a0c6b892a8574"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\chess_coach\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\cosmic_kitchen\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "04935ce39e0c686c2c9d5c024d4018c1"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\cosmic_kitchen\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\default\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "359e9a2bf7d2dad27625804c642dc602"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\default\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\example\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "32c715794d12991fd9df2e8fc7491c5b"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\example\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "faba30a326354f9fea5c271cb5462eb7"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\hype_bot\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "f6d224adf626c0f250fe2b25b06d7303"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\hype_bot\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\mad_scientist_assistant\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "b103cce6d2ec82c0ee1613280aef6b43"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\mad_scientist_assistant\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\mars_rover\\instructions.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "359261314aa99193980e0d6016ef0d5b"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\mars_rover\\tools.txt": {
+    "mtime": 1778685602.6094232,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\nature_documentarian\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "91b1ade4dc9bfc1aeffa3d59b0bd7479"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\nature_documentarian\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\noir_detective\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "d3ab6d354ec5ece4ff03b06a484ad734"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\noir_detective\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\sorry_bro\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "c211db2dbf608c73e102a6f7fba5b179"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\sorry_bro\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\tedai\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "1a64eeb0a263e1f414091174b81eb51e"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\tedai\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "f6cb6d6e2976832731466efa2f0fcbe2"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\time_traveler\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "da8030fc8772b213985c63bef1a68c24"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\time_traveler\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\victorian_butler\\instructions.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "73be984e74e9eea33257a40a4d5585c7"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\profiles\\victorian_butler\\tools.txt": {
+    "mtime": 1778685602.62547,
+    "hash": "ca306a2426dba7b042eed4b01e8fb148"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts\\default_prompt.txt": {
+    "mtime": 1778685602.6831572,
+    "hash": "473d7cb25391859e8edf670cbc1dd6e5"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts\\passion_for_lobster_jokes.txt": {
+    "mtime": 1778685602.6831572,
+    "hash": "2c39753afb2ddb7b886918468f1b7cbe"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts\\behaviors\\silent_robot.txt": {
+    "mtime": 1778685602.681978,
+    "hash": "311cdc1bb87aabaffde260f656f17068"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts\\identities\\basic_info.txt": {
+    "mtime": 1778685602.6831572,
+    "hash": "8619b176949a3622db2eab59d75d1b9e"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\prompts\\identities\\witty_identity.txt": {
+    "mtime": 1778685602.6831572,
+    "hash": "f260cf1b8e1bc02ff87b9e1fe7d2f7a0"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\static\\index.html": {
+    "mtime": 1778685602.6831572,
+    "hash": "6c6e1e07cb0c49f9b878c508a7288abc"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\docs\\assets\\conversation_app_arch.svg": {
+    "mtime": 1778685603.6592762,
+    "hash": "e0ff18a327ab3227c3e9ce1ce1570a3c"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\docs\\assets\\reachy_mini_dance.gif": {
+    "mtime": 1778685604.1821117,
+    "hash": "737d3bf76318f5bb2537570b1f661094"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\images\\reachymini_avatar.png": {
+    "mtime": 1778685604.0857682,
+    "hash": "289da317b4ba1847c3f7eda8533fde93"
+  },
+  "C:\\Projekte\\Reachy\\reachy_mini_conversation_app\\src\\reachy_mini_conversation_app\\images\\user_avatar.png": {
+    "mtime": 1778685604.102365,
+    "hash": "819c379a1f0d401844a33e275c76035d"
+  }
+}

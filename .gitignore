@@ -63,6 +63,14 @@ src/reachy_mini_conversation_app/profiles/user_personalities/
 
 # Claude Code project-local config and generated artifacts
 .claude/
-graphify-out/
 patches/
 patches.zip
+
+# Knowledge graph: track the *results* of /graphify (graph.json, graph.html,
+# GRAPH_REPORT.md, manifest.json), ignore caches and run-local noise.
+# Note: ``cache/`` above already covers ``graphify-out/cache/``; the entries
+# below are explicit so future readers don't wonder.
+graphify-out/cost.json
+graphify-out/.graphify_chunk_*.json
+graphify-out/.graphify_*.json
+graphify-out/.needs_update
