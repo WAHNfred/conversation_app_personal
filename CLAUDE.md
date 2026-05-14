@@ -2,6 +2,44 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Hardware target (verbindlich)
+
+> **Der Besitzer dieses Repos arbeitet ausschließlich mit Reachy Mini in der WIRELESS-Variante.**
+
+Jeder Vorschlag, Patch, Befehl, Dependency-Pick und jede Spec-Änderung MUSS diesen Hardware-Kontext berücksichtigen. Konkret heißt das:
+
+- **Zielplattform** ist der eingebaute Raspberry Pi (SBC) der Wireless-Variante, plus optional ein per WLAN angebundener Laptop für Backend-Last (z. B. lokaler Hugging-Face-Server, lokales Vision-Modell).
+- **`--local-vision` läuft NICHT auf dem Robot selbst.** Wenn lokale Vision gewünscht wird, läuft der Reachy-Daemon auf dem Robot und die Conversation App auf einem WLAN-Laptop. Die Spec-Anforderung "Restricted Platforms for Local Vision" in [`spec/specs/perception-system.md`](spec/specs/perception-system.md) gilt direkt.
+- **GStreamer / `gi`** ist auf dem Wireless-Image vorhanden → der Default-Media-Backend funktioniert. Die Fallback-Kette `sounddevice_opencv` → `sounddevice_no_video` aus Commit `e36cded` ist defensiver Code für **andere** Setups (Reachy Lite, Laptops) und sollte für Wireless-spezifische Tests nicht als primärer Codepfad behandelt werden.
+- **Mikrofon** ist die XVF3800-Onboard-Mikrofonzeile; `apply_audio_startup_config` MUSS einmalig beim Boot laufen.
+- **Kamera ist eingebaut.** `--no-camera` ist nicht der Default-Modus, es sei denn explizit angefordert.
+- **Bevorzugte Backend-Konfigurationen** (in Reihenfolge):
+  1. `BACKEND_PROVIDER=huggingface` + `HF_REALTIME_CONNECTION_MODE=deployed` — out-of-the-box, ohne API-Key.
+  2. `BACKEND_PROVIDER=huggingface` + `HF_REALTIME_CONNECTION_MODE=local` mit `HF_REALTIME_WS_URL=ws://<lan-laptop>:8765/v1/realtime` — wenn man die HF-Pipeline lokal kontrollieren will.
+  3. OpenAI / Gemini — wenn die API-Keys vorhanden sind und Cloud-Latenz akzeptabel ist.
+- **Schwergewichtige Local-Inferenz-Dependencies** (PyTorch, Transformers, SmolVLM2) NICHT zum Wireless-Image hinzufügen. Die Wireless-Plattform ist ressourcenbegrenzt.
+
+Wenn ein Vorschlag oder Patch nur für eine andere Hardware (Reachy Lite, simulierter Robot, Desktop ohne Robot) sinnvoll ist, kennzeichne das explizit in Plan und Commit-Message.
+
+## Git workflow (verbindlich)
+
+Dieses Repo ist ein **Fork** von `pollen-robotics/reachy_mini_conversation_app`. Eigene Anpassungen leben auf `personal` (oder Feature-Branches davon) in `WAHNfred/conversation_app_personal`; der `main`-Branch ist sauberer Spiegel von `upstream/main`.
+
+Vollständiger Workflow in [`git-Befehle.md`](git-Befehle.md). Kurzform:
+
+- **`upstream`** = `pollen-robotics/...` (nur fetch, niemals push)
+- **`origin`** = `WAHNfred/conversation_app_personal` (eigener Fork)
+- **`main`** trackt `upstream/main`, wird NIE direkt beschrieben — nur via `git merge upstream/main`
+- **`personal`** ist der Default-Arbeitsbranch; alle eigenen Commits landen hier
+- **`git push --force` ist tabu**, `--force-with-lease` nur nach expliziter Bestätigung
+- **Nach `upstream` wird niemals gepusht**
+
+Bei Code-Änderungen in einer Session:
+
+1. Vor jedem Commit `git status --short` und `git log --oneline -5` zeigen.
+2. Niemals auf `main` committen — vor einem Commit prüfen: `git rev-parse --abbrev-ref HEAD` MUSS `personal` (oder ein davon abgeleiteter Branch) sein.
+3. Bei "hol Upstream rein"-Aufträgen den Workflow aus [`git-Befehle.md`](git-Befehle.md) Abschnitt B ausführen und Konflikte zur Auflösung vorlegen, nicht stillschweigend bearbeiten.
+
 ## Knowledge graph first
 
 Before exploring the codebase with Glob/Grep/Read for structural questions ("where is X defined", "what calls Y", "how does Z connect to W", "what are the main modules"), **consult the knowledge graph at `graphify-out/graph.json` first**. It contains 1368 nodes and 2093 edges covering all code, docs, profiles, and assets, clustered into named communities (Realtime Audio Backend Core, MovementManager, Tool System, etc.) with cross-community bridges already identified.
