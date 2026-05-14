@@ -925,14 +925,25 @@ class BaseRealtimeHandler(ConversationHandler, ABC):
 
         input_sample_rate, audio_frame = frame
 
-        # Reshape if needed
+        # Normalise to 1-D mono
         if audio_frame.ndim == 2:
-            # Scipy channels last convention
+            # aiortc delivers channels-first (C, N) → transpose to (N, C)
             if audio_frame.shape[1] > audio_frame.shape[0]:
                 audio_frame = audio_frame.T
-            # Multiple channels -> Mono channel
-            if audio_frame.shape[1] > 1:
-                audio_frame = audio_frame[:, 0]
+            # Collapse to 1-D regardless of channel count (take first channel)
+            audio_frame = audio_frame[:, 0]
+
+        # One-time silence check: warn if the mic appears to be sending silence
+        if not getattr(self, "_audio_silence_checked", False):
+            self._audio_silence_checked = True
+            peak = int(np.abs(audio_frame).max())
+            if peak == 0:
+                logger.warning(
+                    "First audio frame is completely silent (peak=0). "
+                    "Check browser microphone permissions and device selection."
+                )
+            else:
+                logger.info("Microphone audio confirmed: peak=%d (non-silent)", peak)
 
         # Resample if needed
         if self.input_sample_rate != input_sample_rate:

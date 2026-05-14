@@ -124,6 +124,34 @@ def run(
             log_connection_troubleshooting(logger, args.robot_name)
             sys.exit(1)
 
+        except ImportError as e:
+            if "gi" in str(e) or "gstreamer" in str(e).lower():
+                logger.warning(
+                    f"GStreamer backend unavailable ({e}). "
+                    "Retrying with sounddevice_opencv backend..."
+                )
+                try:
+                    robot = ReachyMini(media_backend="sounddevice_opencv", **robot_kwargs)
+                except (RuntimeError, Exception) as e2:
+                    logger.warning(
+                        f"sounddevice_opencv backend unavailable ({type(e2).__name__}: {e2}). "
+                        "Retrying with sounddevice_no_video backend..."
+                    )
+                    try:
+                        robot = ReachyMini(media_backend="sounddevice_no_video", **robot_kwargs)
+                    except Exception as e3:
+                        logger.error(
+                            f"All media backend fallbacks failed: {type(e3).__name__}: {e3}"
+                        )
+                        logger.error("Please check your configuration and try again.")
+                        sys.exit(1)
+            else:
+                logger.error(
+                    f"Unexpected error during robot initialization: {type(e).__name__}: {e}"
+                )
+                logger.error("Please check your configuration and try again.")
+                sys.exit(1)
+
         except Exception as e:
             logger.error(f"Unexpected error during robot initialization: {type(e).__name__}: {e}")
             logger.error("Please check your configuration and try again.")
