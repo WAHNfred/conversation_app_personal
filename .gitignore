@@ -60,3 +60,9 @@ cache/
 
 # User-created personalities (managed by UI)
 src/reachy_mini_conversation_app/profiles/user_personalities/
+
+# Claude Code project-local config and generated artifacts
+.claude/
+graphify-out/
+patches/
+patches.zip
